@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  ng-app="myApp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Teste</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/angular.min.js"></script>
+</head>
+<body ng-controller="CharactersCtrl">
+    <nav class="navbar navbar-default navbar-dark" style="height:60px">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="col-md-2">&nbsp;</div>
+                <div class="col-md-3" style="height:60px">
+                    <ul class="nav navbar-nav" ng-repeat="char in characters">
+                        <li><a href="#">{{char.menu}}</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-1">
+                    <img style="float:right; margin-top:10px" src="images/psdgraphics.png" />
+                </div>
+                <div class="col-md-4" style="height:60px">
+                    <ul class="nav navbar-nav" ng-repeat="char in characters">
+                        <li><a href="#">{{char.menu2}}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div id="div1" class="col-md-6">
+            <div class="container">
+                <div class="text-center" >
+                    <h2 style="font-weight:bold" ng-repeat="char in characters">{{char.title1}}</h2>
+                    <div class="divider"></div>
+                    <p style="font-size:10px" ng-repeat="char in characters">
+                        {{char.subtitle1}}
+                    </p>
+                    <br />
+                    <p style="font-size:9px; color:#aaadb0">Download Mackbook air mockup free PSD graphics. A High Quality beautiful Macbook</p>
+                    <p style="font-size:9px; color:#aaadb0">
+                        Air Mockup on a wooden desk with other elements such as coffee cup, notebook,
+                    </p>
+                    <p style="font-size:9px; color:#aaadb0">iphone etc for free download.</p>
+                    <br /><br /><br /><br /><br />
+                    <img src="images/knowmore.png" />
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="brand-wrapper">
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="col-md-12">
+                <div class="col-sm-6">
+                    <div class="brand-wrapper2">
+
+                    </div> 
+                    </div>
+                <div class="col-sm-6">
+                    <div class="brand-wrapper3">
+                        <div class="text-center" style="padding-top:80px">
+                            <p style="font-size:15px; font-weight:bold; color:#fff">
+                               STYLISH<br />RESUME<br />&<br />COVER<br />LETTER
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div class="col-md-12">
+                <div class="col-sm-6">
+                    <div class="brand-wrapper4">
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="brand-wrapper5">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div1" class="col-md-6">
+            <div class="container">
+                <div class="text-center">
+                    <h2 style="font-weight:bold" ng-repeat="char in characters">{{char.title2}}</h2>
+                    <div class="divider"></div>
+                    <p style="font-size:10px" ng-repeat="char in characters">
+                        {{char.subtitle2}}
+                    </p>
+                    <br />
+                    <p style="font-size:9px; color:#aaadb0">Download Mackbook air mockup free PSD graphics. A High Quality beautiful Macbook</p>
+                    <p style="font-size:9px; color:#aaadb0">
+                        Air Mockup on a wooden desk with other elements such as coffee cup, notebook,
+                    </p>
+                    <p style="font-size:9px; color:#aaadb0">iphone etc for free download.</p>
+                    <br /><br /><br /><br /><br />
+                    <img src="images/viewall.png" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="div1" class="col-md-6">
+            <div class="container">
+                <div class="text-center">
+                    <h2 style="font-weight:bold" ng-repeat="char in characters">{{char.title3}}</h2>
+                    <div class="divider"></div>
+                    <p style="font-size:10px" ng-repeat="char in characters">
+                        {{char.subtitle3}}
+                    </p>
+                    <br />
+                    <p style="font-size:9px; color:#aaadb0">Download Mackbook air mockup free PSD graphics. A High Quality beautiful Macbook</p>
+                    <p style="font-size:9px; color:#aaadb0">
+                        Air Mockup on a wooden desk with other elements such as coffee cup, notebook,
+                    </p>
+                    <p style="font-size:9px; color:#aaadb0">iphone etc for free download.</p>
+                    <br /><br /><br /><br /><br />
+                    <img src="images/knowmore.png" />
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="brand-wrapper6">
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="brand-wrapper7">
+
+            </div>
+        </div>
+        <div id="div1" class="col-md-6">
+            <div class="container">
+                <div class="text-center">
+                    <h2 style="font-weight:bold" ng-repeat="char in characters">{{char.title4}}</h2>
+                    <div class="divider"></div>
+                    <p style="font-size:10px" ng-repeat="char in characters">
+                        {{char.subtitle4}}
+                    </p>
+                    <br />
+                    <p style="font-size:9px; color:#aaadb0">Download Mackbook air mockup free PSD graphics. A High Quality beautiful Macbook</p>
+                    <p style="font-size:9px; color:#aaadb0">
+                        Air Mockup on a wooden desk with other elements such as coffee cup, notebook,
+                    </p>
+                    <p style="font-size:9px; color:#aaadb0">iphone etc for free download.</p>
+                    <br /><br /><br /><br /><br />
+                    <img src="images/knowmore.png" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="div-footer" class="col-md-12">
+            <div class="col-md-2">&nbsp;</div>
+            <div class="col-md-3">
+                <img src="images/Layer18.png" />
+            </div>
+        </div>
+    </div>
+    <footer class="style">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">&nbsp;</div>
+                <div class="col-md-6 col-xs-12">
+                    <span class="copyright">Copyright © 2016 PSD Graphics | All Right Reserved | Designed by Nicole Florence</span>
+                </div>
+                <div class="col-md-5 col-xs-12">
+                    <ul class="nav navbar-nav copyright" ng-repeat="char in characters">
+                        <li>{{char.menu}}</li>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <li>{{char.menu2}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="teste.js"></script>
+    <script src="characters-ctrl.js"></script>
+</body>
+</html>

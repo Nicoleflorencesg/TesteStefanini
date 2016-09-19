@@ -1,0 +1,123 @@
+﻿body {
+}
+.navbar-dark{
+    background-color:#2a2a2a;
+    color:#fff
+}
+.brand-wrapper {
+    background-image: url(../images/Layer35.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    height: 600px;
+    width: 100%;
+    z-index: 99;
+
+}
+.brand-wrapper2 {
+    background-image: url(../images/Layer36.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left:0;
+    height: 300px;
+    width: 100%;
+    z-index: 99;
+}
+
+.brand-wrapper3 {
+    background-image: url(../images/Rectangle3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left:0;
+    height: 300px;
+    width: 100%;
+    z-index: 99;
+}
+
+.brand-wrapper4 {
+    background-image: url(../images/Layer37.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left:0;
+    height: 300px;
+    width: 100%;
+    z-index: 99;
+}
+
+.brand-wrapper5 {
+    background-image: url(../images/Layer38.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left:0;
+    height: 300px;
+    width: 100%;
+    z-index: 99;
+}
+
+.brand-wrapper6 {
+    background-image: url(../images/Layer40.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left:0;
+    height: 600px;
+    width: 100%;
+    z-index: 99;
+}
+
+.brand-wrapper7 {
+    background-image: url(../images/Layer41.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left:0;
+    height: 600px;
+    width: 100%;
+    z-index: 99;
+}
+
+#div-footer{
+    height:400px;
+    background-color:#1a1c27;
+    padding-top:60px
+}
+
+footer.style{
+    background-color:#222533;
+        padding: 25px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    color: #9a9ca0;
+    font-size:13px;
+}
+
+#div1 {
+    padding-top:100px;
+    height:510px;
+}
+.divider{
+    content: "";
+    position: relative;
+    height: 4px;
+    width: 40px;
+    display: block;
+    text-align: center;
+    margin: 13px auto;
+    background-color:#137bc4;
+}
